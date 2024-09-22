@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Festa de Aniverário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Você está convidado para o grande evento!
+                <br>
+                <span id="countdown"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua dos Bobos, 0 - Mundo da Fantasia - Cidade dos Sonhos
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/07/2025 às 20h00
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--festa">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">A Festa</h2>
+                <p class="event__details__description">Prepare-se para o grande dia. Uma festa com muita música boa, comida e bebida a vontade.</p>
+            </div>
+            <img class="event__image" src="./images/festa.jpg" alt="Festa">
+        </div>
+    </section>
+    <section class="event event--tema event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Anos 90</h2>
+                <p class="event__details__description">Sim! A festa será temática... Vamos comemorar em grande estilo, como faziam nos anos 90.</p>
+            </div>
+            <img class="event__image" src="./images/tema.jpg" alt="Back-end">
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
